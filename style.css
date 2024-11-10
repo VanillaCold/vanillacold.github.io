@@ -17,6 +17,7 @@ body
     background-attachment: fixed;
 }
 
+
 .video
 {
     min-width:100%;
@@ -24,6 +25,7 @@ body
     max-height:50%;
     flex-basis:100%;
     padding-right:150px;
+    padding-left:25px;
 }
 
 .break {
@@ -91,6 +93,11 @@ body
     color: #4080E0
 }
 
+.red
+{
+    color: #E03030
+}
+
 .title
 {
     padding:10px;
@@ -108,4 +115,9 @@ body
 .mainTable
 {
     max-width:80%;
+}
+
+.centertext
+{
+    text-align:center;
 }
