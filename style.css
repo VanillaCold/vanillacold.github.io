@@ -1,0 +1,90 @@
+*
+{
+    font-family: "Segoe UI", sans-serif;
+}
+
+body
+{
+    display:flex;
+    justify-content:center;
+    background: url("background.png");
+    background-size: fill;
+    background-position-x:50%;
+    flex-wrap: wrap;
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 10%;
+    margin:100px;
+}
+
+.container
+{
+    margin-top:40px;
+    margin-botton:80px;
+    padding-top:0px;
+    padding-bottom:0px;
+    width: 60%;
+    flex-basis:60%;
+    min-width:500px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 10px #00003060;
+    background-color: white;
+    overflow:clip;
+    min-height:500px;
+}
+
+.centercontainer
+{
+    display:flex;
+    justify-content:center;
+}
+
+.centerheight
+{
+    align-items:center;
+}
+
+.headerimage
+{
+    min-width:50%;
+    max-width:50%;
+    flex-basis:50%;
+}
+
+.roundedimage
+{
+    border-radius:100%;
+}
+
+.smallerTableData
+{
+    display:flex;
+    width:40%;
+    min-width:40%;
+    flex-basis:40%;
+}
+
+.blue
+{
+    color: #4080E0
+}
+
+.title
+{
+    padding:10px;
+    text-align:center;
+    background-color: #4080E0;
+    color:white;
+    font-size: 1.5em;
+}
+
+.mainTable
+{
+    max-width:80%;
+}
