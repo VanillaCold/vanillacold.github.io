@@ -74,6 +74,15 @@ body
     flex-basis:50%;
 }
 
+
+
+.headerimage_bigger
+{
+    min-width:100%;
+    max-width:100%;
+    flex-basis:50%;
+}
+
 .roundedimage
 {
     border-radius:100%;
@@ -120,4 +129,10 @@ body
 .centertext
 {
     text-align:center;
+}
+
+.centerEtc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
